@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@400;700&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#94A6BB;
+}
+
+.layoutbanner{
+    height:150px;
+    width:100%;
+    background-color: #3A5874;
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+
+}
+
+.layouttitle{
+    width: 250px;
+    height: 150px;
+    color: #fff;
+    font-family: 'Karantina';
+    line-height: 150px;
+}
+
+.layouttitle >h1{
+    line-height: 150px;;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.mynav{
+    position: absolute;
+    float: right;
+    height: 150px;
+    color:#fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: 50px;
+}
+
+.mynav>ul>li{
+line-height: 150px;
+list-style: none;
+font-size: 1.2em;
+}
+
+.footer{
+    height: 50px;
+    background-color: #3A5874;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: beige;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8em;
+}
+.footer * {
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
